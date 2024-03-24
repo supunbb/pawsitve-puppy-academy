@@ -8,19 +8,20 @@ import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+
+
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <AboutUs/>
-      <Services/>
-      <Testimonials/>
-      <Gallery/>
-      <Contact/>
-      <Footer/>
-      
-  </div>
+    <div className='w-full overflow-hidden'>
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <Services />
+      <Testimonials />
+      <Gallery />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 
